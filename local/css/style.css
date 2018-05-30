@@ -1189,6 +1189,7 @@ body .button-seven {
 
 .seo-theme .partners-section {
     padding: 60px 0;
+    background-color: #fff;
     /*border-top: 1px solid #ececec;*/
 }
 
@@ -1985,7 +1986,7 @@ footer.seo-footer p {
 
 /* ------------ SEO Service One --------------*/
 .seo-theme .our-service.bg-color {
-    background: #fafafa;
+    background: #fff;
     margin: 0;
     padding: 0 0 90px 0;
 }
@@ -3644,7 +3645,7 @@ body > div.main-page-wrapper > div.welcome-seo.class-mate > div > div.wrapper {
 
 #seo-company-banner > ul > li > div:nth-child(1) > div > div > div > h3 {
     width: 310px;
-    float: right;
+    /*float: right;*/
     text-align: left;
 }
 
