@@ -12,7 +12,7 @@
     <meta name="keywords" content="圈外,圈外同学,圈外商学院,商学院">
     <meta name="description" content="圈外商学院">
     <!--<%=request.getServerName().endsWith(".iquanwai.com")?"":"<meta name=\"robots\" content=\"noindex\">"%>-->
-    <link href="//www.iqycamp.com/images/logo.png" rel="shortcut icon">
+    <link href="//static.iqycamp.com/71527579350_-ze3vlyrx.pic_hd.jpg" rel="shortcut icon">
     <!-- Main style sheet -->
     <link rel="stylesheet" type="text/css" href="local/css/style.css">
     <!-- responsive style sheet -->
@@ -603,7 +603,7 @@
 
             <div class="row">
                 <div id="partner-logo">
-                    <div class="item"><img
+             <!--       <div class="item"><img
                             src="https://static.iqycamp.com/images/fragment/pc_icon_enterprise_tongcheng_0213.png?imageslim" alt="合作企业">
                     </div>
                     <div class="item"><img
@@ -615,6 +615,9 @@
                     <div class="item"><img
                             src="https://static.iqycamp.com/images/fragment/pc_icon_enterprise_changjiang_0226_2.png?imageslim" alt="合作企业">
                     </div>
+                    <div class="item"><img
+                            src="https://static.iqycamp.com/logo-1-dfg41k1i.png" alt="合作企业">
+                    </div>-->
                 </div> <!-- End .partner_logo -->
             </div>
         </div>
@@ -803,6 +806,41 @@
       s.parentNode.insertBefore(hm, s);
     })();
   }
+  $(function () {
+     var imgLogoList =[
+         "https://static.iqycamp.com/images/fragment/pc_icon_enterprise_tongcheng_0213.png?imageslim",
+         "https://static.iqycamp.com/images/fragment/pc_icon_enterprise_yinlian_0213.png?imageslim",
+         "https://static.iqycamp.com/images/fragment/pc_icon_enterprise_jumen_0223_1.png?imageslim",
+         "https://static.iqycamp.com/images/fragment/pc_icon_enterprise_changjiang_0226_2.png?imageslim",
+         "https://static.iqycamp.com/logo-1-dfg41k1i.png",
+         "https://static.iqycamp.com/logo-2-ng8v94m7.png",
+         "https://static.iqycamp.com/logo-3-e9g5ds5l.png",
+         "https://static.iqycamp.com/logo-4-f3rpu1wb.png",
+         "https://static.iqycamp.com/logo-5-466aqb2b.png",
+         "https://static.iqycamp.com/logo-6-apvd7xyi.png",
+         "https://static.iqycamp.com/logo-7_1-4ieq5zj9.png",
+         "https://static.iqycamp.com/logo-7_2-ed9txfuv.png",
+         "https://static.iqycamp.com/logo-7_3-7il4tx01.png",
+         "https://static.iqycamp.com/logo-7_4-m2idpyh5.png",
+         "https://static.iqycamp.com/logo-7_5-o1kn0lwp.png",
+         "https://static.iqycamp.com/logo-7_6-uc38l86k.png",
+         "https://static.iqycamp.com/logo-7_7-lv6mzjpk.png",
+         "https://static.iqycamp.com/logo-8_1-j7r501po.png",
+         "https://static.iqycamp.com/logo-8_2-n4xsdbkc.png",
+         "https://static.iqycamp.com/logo-8_3-5uo4o065.png",
+         "https://static.iqycamp.com/logo-8_4-zoo9rnik.png",
+         "https://static.iqycamp.com/logo-8_5-r2xa6k52.png",
+         "https://static.iqycamp.com/logo-keuxrurc.png"
+     ];
+      var imgDiv=""
+      imgLogoList.forEach(function (item,index) {
+          imgDiv +=`<div class="item"><img
+                            src=${item} alt="合作企业">
+                    </div>`
+      })
+      $('#partner-logo').append(imgDiv)
+  }) 
+  
 </script>
 </body>
 </html>
