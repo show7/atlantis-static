@@ -1001,7 +1001,13 @@ body .button-seven {
 .seo-theme .company-goal h2 {
     font-weight: 700;
     line-height: 50px;
+}
+.seo-theme .company-goal p{
     margin-bottom: 115px;
+    font-size: 20px;
+    margin-top: 18px;
+    text-align: center;
+    color: #999;
 }
 
 .seo-theme .company-goal .single-goal {
