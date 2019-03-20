@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+*.log
+
+.idea
+
+dist
+temp
+
+tags
+*.swp
+.ftppass
+
+gulpfile.js
+__build__/
+
+typings
